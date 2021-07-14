@@ -1,7 +1,7 @@
-import createElement from '../../assets/lib/create-element.js';
-import escapeHtml from '../../assets/lib/escape-html.js';
+import createElement from '../assets/lib/create-element.js';
+import escapeHtml from '../assets/lib/escape-html.js';
 
-import Modal from '../../7-module/2-task/index.js';
+import Modal from './index7-1.js';
 
 export default class Cart {
   cartItems = []; // [product: {...}, count: N]
@@ -60,18 +60,18 @@ export default class Cart {
       product.id
     }">
       <div class="cart-product__img">
-        <img src="/assets/images/products/${product.image}" alt="product">
+        <img src="../assets/images/products/${product.image}" alt="product">
       </div>
       <div class="cart-product__info">
         <div class="cart-product__title">${escapeHtml(product.name)}</div>
         <div class="cart-product__price-wrap">
           <div class="cart-counter">
             <button type="button" class="cart-counter__button cart-counter__button_minus">
-              <img src="/assets/images/icons/square-minus-icon.svg" alt="minus">
+              <img src="../assets/images/icons/square-minus-icon.svg" alt="minus">
             </button>
             <span class="cart-counter__count">${count}</span>
             <button type="button" class="cart-counter__button cart-counter__button_plus">
-              <img src="/assets/images/icons/square-plus-icon.svg" alt="plus">
+              <img src="../assets/images/icons/square-plus-icon.svg" alt="plus">
             </button>
           </div>
           <div class="cart-product__price">€${product.price.toFixed(2)}</div>

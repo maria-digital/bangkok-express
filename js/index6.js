@@ -1,4 +1,4 @@
-import createElement from '../../assets/lib/create-element.js';
+import createElement from '../assets/lib/create-element.js';
 
 export default class Carousel {
   constructor(slides) {
@@ -15,12 +15,12 @@ export default class Carousel {
   render(caruselInner, slides) {
     const list = slides.map(value => `
         <div class="carousel__slide" data-id=${value.id}>
-        <img src="/assets/images/carousel/${value.image}" class="carousel__img" alt="slide">
+        <img src="../assets/images/carousel/${value.image}" class="carousel__img" alt="slide">
         <div class="carousel__caption">
         <span class="carousel__price">€${Number(value.price).toFixed(2)}</span>
         <div class="carousel__title">${value.name}</div>
         <button type="button" class="carousel__button">
-        <img src="/assets/images/icons/plus-icon.svg" alt="icon">
+        <img src="../assets/images/icons/plus-icon.svg" alt="icon">
         </button>
         </div>
         </div>

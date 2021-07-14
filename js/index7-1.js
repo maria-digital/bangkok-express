@@ -1,4 +1,4 @@
-import createElement from '../../assets/lib/create-element.js';
+import createElement from '../assets/lib/create-element.js';
 
 export default class RibbonMenu {
   constructor(categories) {
@@ -24,13 +24,13 @@ export default class RibbonMenu {
       `).join('');
     elem.innerHTML = `
       <button class="ribbon__arrow ribbon__arrow_left">
-        <img src="/assets/images/icons/angle-icon.svg" alt="icon">
+        <img src="../assets/images/icons/angle-icon.svg" alt="icon">
       </button>
       <div class="ribbon__inner">
         ${list}
       </div>
       <button class="ribbon__arrow ribbon__arrow_right ribbon__arrow_visible">
-        <img src="/assets/images/icons/angle-icon.svg" alt="icon">
+        <img src="../assets/images/icons/angle-icon.svg" alt="icon">
       </button>
     `;
   }

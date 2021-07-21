@@ -1,5 +1,4 @@
-import createElement from '../assets/lib/create-element.js';
-import ProductCard from './index6.js';
+import ProductCard from './ProductCard.js';
 
 export default class ProductGrid {
   constructor(products) {
@@ -15,10 +14,13 @@ export default class ProductGrid {
      this.elem.innerHTML = `
     <div class="products-grid">
     <div class="products-grid__inner">
-        ${cards.map(card => card.elem.outerHTML).join('')}
+        
     </div>
     </div>
     `;
+
+    const inner = this.elem.querySelector('.products-grid__inner');
+    cards.forEach((card) => inner.append(card.elem));
   }
 
   updateFilter(filters) {

@@ -1,24 +1,24 @@
 
 /* Carousel */
-@import '/css/index6-3.css';
+@import './css/index6-3.css';
 
 /* RibbonMenu */
-@import '/css/index7-1.css';
+@import './css/index7-1.css';
 
 /* StepSlider */
-@import '/css/index7-4.css';
+@import './css/index7-4.css';
 
 /* ProductCard */
-@import '/css/index6-2.css';
+@import './css/index6-2.css';
 /* ProductsGrid */
-@import '/css/index8-2.css';
+@import './css/index8-2.css';
 
 /* Modal */
-@import '/css/index7-2.css';
+@import './css/index7-2.css';
 /* CartIcon */
-@import '/css/index8-1.css';
+@import './css/index8-1.css';
 /* Cart */
-@import '/css/index8-4.css';
+@import './css/index8-4.css';
 
 @import './filters.css'
 

@@ -35,7 +35,7 @@
   height: 24px;
   margin-left: 12px;
   position: relative;
-  background: url(/assets/images/icons/loader-icon-sm.svg) center no-repeat;
+  background: url(assets/images/icons/loader-icon-sm.svg) center no-repeat;
   background-size: cover;
   vertical-align: bottom;
   display: inline-block;

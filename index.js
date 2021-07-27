@@ -1,14 +1,14 @@
-import Carousel from '/js/index6.js';
-import slides from '/js/slides6.js';
+import Carousel from './js/index6.js';
+import slides from './js/slides6.js';
 
-import RibbonMenu from '/js/index7-1.js';
-import categories from '/js/categories7-1.js';
+import RibbonMenu from './js/index7-1.js';
+import categories from './js/categories7-1.js';
 
-import StepSlider from '/js/index7-4.js';
-import ProductsGrid from '/js/index8-2.js';
+import StepSlider from './js/index7-4.js';
+import ProductsGrid from './js/index8-2.js';
 
-import CartIcon from '/js/index8-1.js';
-import Cart from '/js/index8-4.js';
+import CartIcon from './js/index8-1.js';
+import Cart from './js/index8-4.js';
 
 export default class Main {
 

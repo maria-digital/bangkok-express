@@ -1,6 +1,4 @@
-# bangkok-express
-
-Online ordering restaurant
+# Online ordering restaurant Bangkok-express
 
 + Above carousel with goods, below ribbon menu, slider, then loading goods from the server, dynamic filtering of the list of goods.
 + And also a shopping cart with dynamic positioning while scrolling, animation, a modal window and an order form.
